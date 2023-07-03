@@ -1,0 +1,132 @@
+
+/*Edita a cor quando se digita */
+input{
+    color: white;
+}
+
+/*Edita o footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    color: white;
+    text-align: center;
+}
+/* Edita o centro do login, a parte principal*/
+.center {
+    position: absolute;
+    margin-top: -50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: linear-gradient(120deg,#E75F03, #E75F03);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+/* Edita o titulo do login */
+.center h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+    color: white;
+}
+/* Edita o formulario do login */
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+/* Edita o campo de texto do login */
+form .txt_field {
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+/* Edita o campo de input do login */
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+/* Edita o label do login */
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: white;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+/* Edita a animação quando se digita*/
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: grey;
+    transition: .5s;
+}
+/* Edita a cor do campo usuário, senha por exemplo*/
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -5px;
+    color: white;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 100%;
+}
+/*Edição do campo "Esqueci minha senha" */
+.pass {
+    margin: -5px 0 20px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+/*Edição do botão login*/
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: white;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #E75F03;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+/*Animação do botão login*/
+input[type="submit"]:hover {
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.signup_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.signup_link a {
+    color: black;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}

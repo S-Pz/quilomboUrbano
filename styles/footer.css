@@ -1,0 +1,49 @@
+footer {
+    background-color: #e75f03;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+}
+
+#footer_content{
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.adress{
+    /* background-color: brown; */
+    width: 20rem;
+}
+
+.contato{
+    /* background-color: blueviolet; */
+    width: 20rem;
+}
+
+
+.social{
+    /* background-color: blue; */
+    width: 20rem;
+}
+
+.theme{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.theme img{
+    margin-right: 20px;
+}
+
+.theme2{
+    display: flex;
+    justify-content: space-evenly;
+}

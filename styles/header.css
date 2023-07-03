@@ -1,0 +1,52 @@
+header{
+    background-color: #e75f03;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+header li{
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    color: black;
+    transition: .3s;
+}
+
+header button{
+    border: none;
+    background: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+}
+
+header button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
