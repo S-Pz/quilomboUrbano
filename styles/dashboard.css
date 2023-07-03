@@ -1,0 +1,99 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.container{
+    padding: 20px;
+    margin: 30px 100px 30px 100px;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.main-top{
+    /* background-color: blue; */
+    display: flex;
+    padding-left: 15px;
+}
+
+.main-skills{
+    /* background-color: yellow; */
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.main-skills .card{
+    width: 25%;
+    margin: 10px;
+    background: rgb(235, 233, 233);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.main-skills .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main-skills .card p{
+    font-size: 18px;
+}
+
+.main-skills .card button{
+    background: orangered;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.main-skills .card button:hover{
+    background: rgba(223, 70, 15, 0.856);
+}
+
+.main-skills .card i{
+    font-size: 22px;
+    padding: 10px;
+}
+
+/*Tabela de atividade*/
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table td,th {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #eb7406fb;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.table tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}

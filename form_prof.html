@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Quilombo</h1>
+            <h1>Urbano</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="workshop.html">Oficinas</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="dashboard.html">Perfil</a></li>
+        </ul>
+        <a href="login.html"><button type="button">Login</button></a>  
+    </header>
+
+    <div class="wrapper">
+        <div class="title">
+          Formulário de Cadastro
+        </div>
+        <div class="form">
+            <div class="inputfield">
+                <label>Nome Completo</label>
+                <input type="text" class="input" required>
+            </div>
+
+            <div class="inputfield">
+                <label>Email</label>
+                <input type="email" class="input" required>
+            </div> 
+
+            <div class="inputfield">
+                <label>Telefone (somente Números)</label>
+                <input type="text" class="input" required>
+            </div> 
+
+            <div class="inputfield">
+                <label>Nome do projeto</label>
+                <input type="email" class="input" required>
+            </div> 
+
+            <div class="inputfield">
+                <label>Faça uma descrição do projeto</label>
+                <textarea class="textarea"></textarea>
+            </div>
+
+            <div class="inputfield">
+                <label>Dia da Semana</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="">Selecione</option>
+                        <option value="segunda">Segunda</option>
+                        <option value="terca">Terça</option>
+                        <option value="quarta">Quarta</option>
+                        <option value="quinta">Quinta</option>
+                        <option value="sexta">Sexta</option>
+                        <option value="sabado">Sábado</option>
+                        <option value="domingo">Domingo</option>
+                    </select>
+                </div>
+            </div> 
+            
+            <div class="inputfield">
+                <label>Horário</label>
+            </div>
+            
+            <div class="schedule-item">
+                <div class="input-block">
+                    <label>Das</label>
+                    <input type="time" name="time_from" required>
+                </div>
+    
+                <div class="input-block">
+                    <label>Até</label>
+                    <input type="time" name="time_to" required>
+                </div>
+            </div>
+
+            <div class="inputfield">
+                <label>Público Alvo</label>
+                <div class="custom_select">
+                    <select>
+                        <option value="">Selecione</option>
+                        <option value="crianca">Crianças</option>
+                        <option value="adolescente">Adolecentes</option>
+                        <option value="adultos">Adultos</option>
+                        <option value="idosos">Idosos</option>
+                        <option value="todos">Todas as idades</option>
+                    </select>
+                </div>
+            </div> 
+
+            <div class="inputfield">
+                <label>Quantidade de pessoas no projeto</label>
+                <input type="number" class="input" required>
+            </div> 
+            
+            <div class="inputfield">
+                <input type="submit" value="Cadastrar" class="btn">
+            </div>
+        </div>
+    </div>	
+    <footer>
+        <div id="footer_content">
+            <div class="adress">
+                <div class="theme">
+                    <img src="components/images/location.png" class="on" alt="Adress">
+                    <p>Dom Bosco</p>
+                </div>     
+            </div> 
+            
+            <div class="contato">
+                <div class="theme">
+                    <img src="components/images/phone.png" class="ico" alt="phone">
+                    <p>012 9638595661</p>
+                </div>
+                <div class="theme">
+                    <img src="components/images/email.png" class="ic" alt="email">
+                    <p>info@uniletadvisor.com</p>
+                </div>
+            </div>
+
+            <div class="social">
+                <div class="theme2">
+                    <img src="components/images/facebook.png" class="icon1" alt="facebook">
+                    <a href="https://www.instagram.com/movimento.negro.sjdr/"><img src="components/images/instagram.png" class="icon2" alt="instagram"></a>
+                    <img src="components/images/twitter.png" class="icon3" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
